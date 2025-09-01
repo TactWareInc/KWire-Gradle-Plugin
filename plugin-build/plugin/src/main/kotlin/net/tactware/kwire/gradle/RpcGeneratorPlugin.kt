@@ -22,7 +22,7 @@ class RpcGeneratorPlugin : Plugin<Project> {
     private fun registerCodeGenerationTasks(project: Project, extension: RpcGeneratorExtension) {
         // Register the main code generation task
         val generateStubsTask = project.tasks.register("generateRpcStubs", GenerateRpcStubsTask::class.java) { task ->
-            task.group = "obfuscated-rpc"
+            task.group = "rpcGenerator"
             task.description = "Generate RPC client and server stubs"
 
             task.apiSourcePath.set(extension.apiSourcePath)

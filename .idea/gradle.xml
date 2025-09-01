@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <compositeConfiguration>
           <compositeBuild compositeDefinitionSource="SCRIPT">
             <builds>
-              <build path="$PROJECT_DIR$/plugin-build" name="io.github.kmbisset89.semver">
+              <build path="$PROJECT_DIR$/plugin-build" name="net.tactware.kwire.gradle">
                 <projects>
                   <project path="$PROJECT_DIR$/plugin-build" />
                   <project path="$PROJECT_DIR$/plugin-build/plugin" />

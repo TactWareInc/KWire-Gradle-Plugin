@@ -31,6 +31,6 @@ gradleEnterprise {
     }
 }
 
-rootProject.name = ("io.github.kmbisset89.semver")
+rootProject.name = ("net.tactware.kwire.gradle")
 
 include(":plugin")
